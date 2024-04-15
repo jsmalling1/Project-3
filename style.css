@@ -1,0 +1,360 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.martian-mono {
+  font-family: "Martian Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+  
+
+#intro {
+    background-image:url(images/intro.gif);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#title {
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10%; /* ADD AT TEND */
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 80px;
+    color: white;
+}
+
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+}
+
+.btn {
+    border-radius: 28px;
+    font-family: 'Martian Mono', monospace;
+    text-transform: uppercase;
+    color: rgb(115, 20, 20);
+    font-size: 18px;
+    background: #a67d2c;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+  }
+  
+.btn:hover {
+    background: #000000;
+    text-decoration: none;
+  }
+
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    color: white;
+    line-height: 2;
+}
+.center {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.him, .her {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.him:hover {
+    background-color: rgba(0, 22, 49, 0.9);
+    color: yellow;
+} 
+.her:hover {
+    background-color: rgba(63, 0, 0, 0.9);
+    color: yellow;
+} 
+h3 {
+    font-family: "Martian Mono", monospace;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 1.5;
+    text-shadow: 2px 2px 5px black;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+  }
+footer p {
+    text-transform: uppercase;
+    font-family: 'Martian mono', monospace;
+    font-size: 15px;
+}
+footer a {
+    color: #666;
+    text-decoration:none;
+}
+footer a:hover {
+    color: white;
+}
+
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px; 
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 1 / 2 / 2 / 3; }
+        .div3 { grid-area: 2 / 1 / 3 / 2; }
+        .div4 { grid-area: 2 / 2 / 3 / 3; }
+
+        #page1 .parent,
+        #page2 .parent, 
+        #page3 .parent,
+        #page4 .parent,
+        #page5 .parent, 
+        #page6 .parent, 
+        #page7 .parent  {    
+        
+    height: 100vh;
+    width: 100%;
+    
+}
+    
+#page1 {
+
+    background-image:url(images/page\ 1.gif);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#page2 {
+
+    background-image:url(images/page\ 2.GIF);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#page3 {
+
+    background-image:url(images/page\ 3.gif);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#page4 {
+
+    background-image:url(images/page\ 4.GIF);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#page5 {
+
+    background-image:url(images/page\ 5.GIF);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#page6 {
+
+    background-image:url(images/page\ 7.GIF);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#page7 {
+
+    background-image:url(images/page\ 6.GIF);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#outro {
+
+    background-image:url(images/page\ end.GIF);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#page1 .div1,
+#page2 .div1, 
+#page3 .div1, 
+#page4 .div1,
+#page5 .div1, 
+#page6 .div1, 
+#page7 .div1,
+#page-end .div1 { 
+    .div2 { grid-area: 1 / 1 / 2 / 2; }
+    padding: 10%;
+}
+
+#page1 .div2,
+#page2 .div2, 
+#page3 .div2, 
+#page4 .div2,
+#page5 .div2, 
+#page6 .div2, 
+#page7 .div2,
+#page-end .div2 { 
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    padding: 10%;
+}
+
+
+#page1 .div3,
+#page2 .div3, 
+#page3 .div3, 
+#page4 .div3,
+#page5 .div3, 
+#page6 .div3, 
+#page7 .div3,
+#page-end .div3 { 
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    padding: 10%;
+}
+
+
+i {
+    color:#7cc778;
+}
+
+
+#page1 .div4,
+#page2 .div4, 
+#page3 .div4, 
+#page4 .div4,
+#page5 .div4, 
+#page6 .div4, 
+#page7 .div4,
+#page-end .div4 {
+    .div4 { grid-area: 2 / 2 / 3 / 3; }
+    padding: 10%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+#page2 .parent, 
+#page3 .parent, 
+#page4 .parent, 
+#page2 .parent, 
+#page3 .parent,
+#page4 .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+        
+#page2 .div1, 
+#page3 .div1, 
+#page4 .div1, 
+#page5 .div1, 
+#page6 .div1, 
+#page7 .div1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+}
+#page2 .div2, 
+#page4 .div2, 
+#page5 .div2, 
+#page6 .div2, 
+#page7 .div2 { 
+    grid-area: 2 / 1 / 3 / 2; 
+}
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;    
+    }
+    h3 {
+        font-size: 30px;
+    }
+
+}
+
